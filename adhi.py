@@ -1,13 +1,9 @@
+num = int (input (“Enter any number to test whether it is odd or even: “)
 
+if (num % 2) == 0:
 
-num = 16
+              print (“The number is even”)
 
-if num < 0:
-   print("Enter a positive number")
 else:
-   sum = 0
-   
-   while(num > 0):
-       sum += num
-       num -= 1
-   print("The sum is", sum)
+
+              print (“The provided number is odd”)
